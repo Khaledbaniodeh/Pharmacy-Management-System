@@ -1,0 +1,60 @@
+# Java compiled files
+*.class
+
+# Build output
+bin/
+build/
+target/
+out/
+
+# Packaged Java files
+*.jar
+*.war
+*.ear
+
+# Eclipse files
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# JavaFX / local libraries
+lib/
+javafx-sdk-*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local database credentials and configuration
+.env
+.env.*
+config.properties
+database.properties
+application.properties
+
+# MySQL local files
+*.pid
+*.sock
+
+# Archives
+*.zip
+*.rar
+*.7z
