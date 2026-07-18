@@ -9,8 +9,7 @@ public class DBConnection {
 
     private static final String USER = "root";
 
-    private static final String PASSWORD = "khaled.2004oudeh";
-
+private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
